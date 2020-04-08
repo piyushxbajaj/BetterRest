@@ -15,6 +15,7 @@
 		230CC86C243DB1100015892B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230CC86A243DB1100015892B /* LaunchScreen.storyboard */; };
 		230CC877243DB1100015892B /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230CC876243DB1100015892B /* BetterRestTests.swift */; };
 		230CC882243DB1100015892B /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230CC881243DB1100015892B /* BetterRestUITests.swift */; };
+		230CC890243DDF360015892B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 230CC88F243DDF360015892B /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		230CC87D243DB1100015892B /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230CC881243DB1100015892B /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		230CC883243DB1100015892B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230CC88F243DDF360015892B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				230CC863243DB1090015892B /* ContentView.swift */,
 				230CC865243DB1100015892B /* Assets.xcassets */,
 				230CC86A243DB1100015892B /* LaunchScreen.storyboard */,
+				230CC88F243DDF360015892B /* SleepCalculator.mlmodel */,
 				230CC86D243DB1100015892B /* Info.plist */,
 				230CC867243DB1100015892B /* Preview Content */,
 			);
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230CC860243DB1090015892B /* AppDelegate.swift in Sources */,
+				230CC890243DDF360015892B /* SleepCalculator.mlmodel in Sources */,
 				230CC862243DB1090015892B /* SceneDelegate.swift in Sources */,
 				230CC864243DB1090015892B /* ContentView.swift in Sources */,
 			);
